@@ -1,0 +1,21 @@
+.episode {
+  width: 8vw;
+  height: 5vh;
+  background-color: #32353c;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .episode {
+    width: 45vw;
+    height: 5vh;
+    min-height: 5vh;
+  }
+}

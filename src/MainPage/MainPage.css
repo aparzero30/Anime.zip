@@ -1,0 +1,70 @@
+.main-page-wrapper {
+  width: 100vw;
+  max-height: max-content;
+  height: 100vh;
+  height: max-content;
+  gap: 1vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.anime-body {
+  display: flex;
+  flex-direction: row;
+  gap: 1vh;
+}
+
+.card-wrapper {
+  margin-top: 1vh;
+  width: 81vw;
+  max-width: 81vw;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1vh;
+  height: max-content;
+  padding-bottom: 2vw;
+}
+.my-list {
+  margin-top: 1vh;
+  width: 16vw;
+  background-color: #32353c;
+  height: 60vh;
+}
+h5 {
+  font-family: "Inter";
+  width: 99.5%;
+  /* background-color: #1e78ff; */
+  background-color: #32353c;
+  margin: 0;
+  font-size: 0.5vw;
+  height: 1vw;
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  text-indent: 1vh;
+  user-select: none;
+}
+
+@media only screen and (max-width: 600px) {
+  h5 {
+    height: 2vh;
+    font-size: 1vh;
+    width: 93%;
+  }
+
+  .my-list {
+    display: none;
+  }
+  .card-wrapper {
+    max-width: 100vw;
+    width: 100vw;
+    justify-content: center;
+    padding-bottom: 3vh;
+  }
+}
