@@ -12,8 +12,8 @@ function WatchPage() {
   const getAnime = new GetAnimes();
   const location = useLocation();
   const episode: Episode = location.state;
-  // const [server, setServer] = useState("vidcloud");
-  const [server, setServer] = useState("Vidstreaming");
+  const [server, setServer] = useState("vidcloud");
+  // const [server, setServer] = useState("Vidstreaming");
   const [url, setUrl] = useState("");
   const [vidQuality, setVidQuality] = useState<Sources[]>([]);
   const [prevButton, setPrevButton] = useState<JSX.Element | null>(null);
