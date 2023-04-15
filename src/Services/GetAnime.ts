@@ -31,7 +31,7 @@ export class GetAnimes {
       epId +
       "&server=" +
       server;
-    console.log(url);
+    // console.log(url);
     try {
       const { data } = await axios.get(url);
       return data;

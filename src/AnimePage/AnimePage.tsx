@@ -46,12 +46,9 @@ function LandingPage() {
       async function fetchData() {
         const data = await getAnime.getAnimeInfo(animeId);
         setAnime(data);
-        console.log(data);
       }
       fetchData();
     }
-    console.log(id);
-    console.log(animeId);
   }, []);
 
   return (
